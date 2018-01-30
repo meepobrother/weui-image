@@ -1,10 +1,11 @@
-import { WeuiImagePreviewComponent } from './weui-image-preview/weui-image-preview';
+import { WeuiImagePreviewComponent, WeuiImageDefault } from './weui-image-preview/weui-image-preview';
 import { WeuiImageSettingComponent } from './weui-image-setting/weui-image-setting';
 
 export const both = {
     'weui-image': {
         setting: WeuiImageSettingComponent,
-        view: WeuiImagePreviewComponent
+        view: WeuiImagePreviewComponent,
+        default: WeuiImageDefault
     }
 };
 
